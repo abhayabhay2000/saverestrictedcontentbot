@@ -1,5 +1,5 @@
 services:
-  drone-srcb:
+  drone-srcb: okteto context use https://cloud.okteto.com --namespace saverestrictedcontentbot-abhayabhay2000
     build: .
     environment:
       API_ID: $API_ID  
